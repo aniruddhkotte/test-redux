@@ -1,0 +1,90 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 10em;
+  height: 2em;
+  margin: 0.5em;
+}
+
+button {
+  width: auto;
+  height: 1.5em;
+  margin-top: 1em;
+}
+
+.patients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.patient {
+  width: 700px;
+  height: auto;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: space-around;
+}
+
+.update {
+  display: flex;
+  flex-direction: column;
+}
+
+.patient h3 {
+  margin: 20px;
+}
+
+#search {
+  padding: 0;
+  width: 12rem;
+  /* height: 1.5em; */
+  margin-top: 1em;
+}
+
+.display {
+  align-items: center;
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+}
+
+.age {
+  display: flex;
+  flex-direction: row;
+}
+
+.gender {
+  display: flex;
+  flex-direction: row;
+}
+
+.disease {
+  display: flex;
+  flex-direction: row;
+}
+
+.doctor {
+  display: flex;
+  flex-direction: row;
+}
